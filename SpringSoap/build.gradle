@@ -78,7 +78,3 @@ dependencies {
     compile(files(genJaxb.classesDir).builtBy(genJaxb))
 }
 
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '2.3'
-}
